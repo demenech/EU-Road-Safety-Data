@@ -89,7 +89,7 @@ table_matrix[1:] = data #   Putting it back in place
 
 #   Saving the data
 print('[*] Saving data in %s' % filename)
-with open(filename, 'w') as f:
+with open(filename, 'w', encoding='utf-8') as f:
     writer = csv.writer(f)
     writer.writerows(table_matrix)
 
