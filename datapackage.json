@@ -1,0 +1,44 @@
+{
+  "name": "European Union Road Safety Data",
+  "resources": [
+    {
+      "path": "eu_road_safety_data.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Country",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Area (thousands of km2)",
+            "type": "number"
+          },
+          {
+            "name": "Population",
+            "type": "integer"
+          },
+          {
+            "name": "GDP per capita",
+            "type": "integer"
+          },
+          {
+            "name": "Population density (inhabitants per km2)",
+            "type": "integer"
+          },
+          {
+            "name": "Vehicle ownership (per thousand inhabitants)",
+            "type": "integer"
+          },
+          {
+            "name": "Road deaths per Million Inhabitants",
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  ]
+}
