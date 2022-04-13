@@ -68,7 +68,7 @@ for row_idx, row in enumerate(table.find_all('tr')):
 
 
 #   Let's format the column names
-table_matrix[0] = [re.sub('\[.*\]|\\n', ' ', header).strip() for header in table_matrix[0]]
+table_matrix[0] = [re.sub('\[.*\]|\\n|in \d+', ' ', header).strip() for header in table_matrix[0]]
 
 #   Let's cast the strings to numbers
 for row_idx, row in enumerate(table_matrix[1:]):    #   Ignoring header

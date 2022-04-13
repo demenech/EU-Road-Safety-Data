@@ -1,4 +1,4 @@
-Country,Year,Area (thousands of km2),Population in 2018,GDP per capita in 2018,Population density (inhabitants per km2) in 2017,Vehicle ownership (per thousand inhabitants) in 2016,Road deaths per Million Inhabitants in 2018
+Country,Year,Area (thousands of km2),Population,GDP per capita,Population density (inhabitants per km2),Vehicle ownership (per thousand inhabitants),Road deaths per Million Inhabitants
 United Kingdom,2018,248.5,66273576,32400,273,544,28
 Denmark,2018,42.9,5781190,47600,137,508,30
 Ireland,2018,69.8,4830392,59400,70,525,31
